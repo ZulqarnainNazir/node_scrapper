@@ -1,0 +1,1116 @@
+
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><title>Demo First</title><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/scripts/jquery/fancybox/2.1.4/jquery.fancybox.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/scripts/jquery/ui/1.10.3/css/redmond/jquery-ui-1.10.3.custom.min.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/scripts/plugins/video-js/video-js.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/styles/default.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/styles/dwt.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/styles/aw.dwt-latest.css" /><link href="https://www.bestell-dein-blech.de/styles/print.css" type="text/css" rel="stylesheet" media="print"/><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/modernizr.custom.39173.js"></script>
+<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/default.js"></script>
+<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/ui/1.10.3/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/tools/jquery.tools.min.js"></script>
+<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/fancybox/2.1.4/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/plugins/video-js/video.js"></script>
+<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/jquery.viewport.min.js"></script>
+<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/jquery.BlackAndWhite.min.js"></script>
+<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/aw.dwt-latest.js"></script>
+
+                <script type="text/javascript">
+                      var browser_update_message = 'Sie verwenden einen veralteten Browser. Das Zeichentool setzt Funktionen vorraus, die nur in modernen Browsern vorhanden sind. Bitte aktualisieren Sie Ihren Browser, um das Zeichentool korrekt nutzen zu können. Eine Aktualisierung dauert nur wenige Minuten und macht das Surfen sicherer! <a href="http://browser-update.org/de/update.html" target="_blank">Hier erfahren Sie, wie einfach Sie Ihren Browser aktualisieren können.</a>';
+
+                      var $buoop = {
+                          vs: {
+                              i: 10,
+                              f: 23,
+                              o: 11,
+                              s: 4,
+                              n: 9
+                          }
+                          ,
+                          l: 'de'                       // set a language for the message, e.g. "en"
+                          ,
+                          test: false // true = always show the bar (for testing)
+                          ,
+                          text: browser_update_message // custom notification html text
+                      }
+                      $buoop.ol = window.onload;
+                      window.onload = function () {
+                          try {
+                              if ($buoop.ol)
+                                  $buoop.ol();
+                          } catch (e) {
+                          }
+                          var e = document.createElement("script");
+                          e.setAttribute("type", "text/javascript");
+                          e.setAttribute("src", "https://browser-update.org/update.js");
+                          document.body.appendChild(e);
+                      }
+
+                </script>
+            <script type="text/javascript">
+  /* <![CDATA[ */
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-44707912-1']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['_setDomainName', 'www.bestell-dein-blech.de']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_gat._anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+  /* ]]> */
+</script></head><body class="module-dwt controller-order action-draw">
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '', // App ID
+    });
+  };
+  (function(d){
+ var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));
+</script>
+<div class=""><div class="shadow left"></div><div class="page header above"></div><div class="page wrapper"><div class="page center">
+<div class="page column right width-600" style="float: left;">
+        <!-- <div class="toolbox ">
+
+
+
+
+    <div id="undo" class="tooltip title" title="Einen Schritt zur&uuml;ck"></div>
+    <div id="resetDrawing" class="tooltip title" title="Zeichnung verwerfen und neu beginnen"></div> -->
+    <!-- <a href="#fancybox_sketch" class="fancybox question"></a> -->
+<!-- </div> -->
+
+<ul class="view switch" style="">
+    <li class=" no_scale tooltip title" title="Nicht ma&szlig;stabsgetreue Darstellung. Wenn sie eine Bema&szlig;ung &auml;ndern, wird die &Auml;nderung nicht angezeigt. ">Skizze</li>
+
+    <li class="konisch hidden tooltip title" title="Zeichnen Sie hier das zweite Profil eines konischen Blechs. ">Konisch</li>
+</ul>
+<a href="#help" class="hidden fancybox_no_close" id="help_trigger"></a>
+<a href="#question" class="hidden fancybox_no_close" id="question_trigger"></a>
+<a href="#konisch1" class="hidden fancybox_no_close" id="konisch1_trigger"></a>
+<a href="#konisch2" class="hidden fancybox" id="konisch2_trigger"></a>
+<a href="#konisch3" class="hidden fancybox" id="konisch3_trigger"></a>
+<div class="nofloat"></div>
+
+<script type="text/javascript">
+      'use strict';
+
+      var dreiDwtInstance = null;
+      var dwtInstance = null;
+      var dwtConInstance = null;
+      var isConical = false; //Gibt an, ob der Benutzer konisch zeichnet oda nich.
+      var stepDraw = 1; //Zustand des Zeichentools
+      var statusSideArrow = false;
+      var conicalFinished = false;
+      var timer_hint = undefined;
+
+      //Nicht mehr in Benutzung
+      function fancyHelpbox ()
+      {
+          $('#help_trigger').click();
+          $('input[name=no_help]').click(function (event) {
+
+              event.stopPropagation();
+              $.fancybox.close();
+              fancyboxKonisch();
+
+          });
+
+      }
+      //starten des 3D Parts
+      function start3D ()
+      {
+          saveImagesVectors();
+          setStep(4);
+          $('#dwSheet').hide();
+          $('tr.hint').show();
+          $('ul.view.switch').hide();
+          $('#stepDrawBack').hide();
+          $('#resetDrawing').hide();
+          $('#prevProcess').css('visibility', 'hidden');
+          $('input.hide').css('visibility', 'visible');
+          $('input.hide').show();
+          $('#switchSide').css('display', 'inline-block');
+          $('#switchSide').removeClass('hidden');
+          $('input[name=weiter]').css('visibility', 'visible');
+          $('#nextProcess').css('visibility', 'hidden');
+
+          if (browserCheck())
+          {
+
+              if (dwtConInstance !== null)
+              {
+                  dwtConInstance.hide();
+              }
+              if (dreiDwtInstance === null) {
+                  if (dwtConInstance !== null)
+                  {
+                      dreiDwtInstance = $('#dreiDwSheet').dreiDwt([
+                          dwtInstance.getVector(),
+                          dwtConInstance.getVector()
+                      ], dwtInstance.getConfig());
+                  }
+                  else
+                  {
+                      dreiDwtInstance = $('#dreiDwSheet').dreiDwt([
+                          dwtInstance.getVector()
+                      ], dwtInstance.getConfig());
+                  }
+    
+                  dreiDwtInstance.setDepth(600);
+              }
+              //Mausgrafik austauschen
+              $('img.mausgrafik').attr('src', '/images/dwt/grafik_maus_3d.png');
+              dreiDwtInstance.paint();
+          }
+
+
+    
+          //Seitenumschalter anzeigen
+      }
+
+
+      //Fragt freundlich, ob man es konisch mag
+      function fancyboxConical ()
+      {
+          $('#konisch1_trigger').click();
+          //Nicht konisch
+          // $('input[name=nicht_konisch], #img_not_conical').click(function (event) {
+              isConical = false;
+              event.stopPropagation();
+              $.fancybox.close();
+              //Farbe neu einlesen
+              handleSteps();
+          // });
+          //Konisch, dann kommt erst die Konische Zeichnung als Tab
+          $('input[name=konisch], #img_conical').click(function (event) {
+              isConical = true;
+              event.stopPropagation();
+              $.fancybox.close();
+              $('#konisch2_trigger').click();
+              //Farbe ändern in lila
+              if (dwtInstance !== null)
+              {
+                  dwtInstance.setStroke('#7064e1');
+              }
+              handleSteps();
+
+          });
+          //Listener für die ok-Buttons
+          $('input[name=ok]').click(function (event) {
+
+              event.stopPropagation();
+              $.fancybox.close();
+
+          });
+
+
+      }
+      //Startet die konische Zeichnung
+      function handleConical ()
+      {
+          $('ul.view.switch').show().find('.current').removeClass('current');
+          $('ul.view.switch li.konisch').show().addClass('current');
+          //Erstmal nullen, sonst kriegen wir "Geisterbilder"
+          if (dwtConInstance !== null)
+          {
+              dwtConInstance.clear();
+              dwtConInstance = null;
+          }
+              try {
+
+              var vectorData = dwtInstance.toJson();
+          }
+          catch (error)
+          {
+              vectorData = dwtInstance.toJson();
+              vectorData = dwtInstance.toJson();
+          }
+
+          if (vectorData == undefined || vectorData.length === 0) {
+              vectorData = undefined;
+          }
+          //Instanz des konischen Sheets erzeugen und dem die JSON Daten vom alten übergeben
+            //Settings Frontend Conical
+dwtConInstance = $('#dwSheetKonisch').dwt({
+  width: 765,
+  height: 500,
+  allowZooming: false,
+  allowScrolling: false,
+  angleIndicatorScaleFactor: 1.5,
+  allowEnvelopse: true,
+  showVisibleSideArrow: true,
+  showVisibleSideArrowAtPoint: 2,
+  allowLabelCollisionTest: true,
+
+  lineWidth: 3,
+  minScale: 0.1,
+  maxScale: 10,
+  initialScale: 1,
+  zooming: false,
+  conversionValue: 1.5, //Genau 500mm hoch
+  showLegend: false,
+  gridBlockWidth: 15,
+  translateDrawing: false,
+  useAngleIndicator: true,
+  showAngleIndicator: true,
+  useAlphabeticLabel: true,
+  importFromJson: vectorData,
+  routeDistinctionLineWidth: 3,
+  routeDistinctionColor: '#0aaba4',
+  useRouteDistinction: true,
+  visibleSideArrowImageSource: '/images/dwt_icons/arrow.png',
+  I18n: {
+    de_DE:
+    {
+        Error_Restriction_Cut: 'Hinweis: Versandmaße überschritten, eventuell ist eine Lieferung nicht möglich. Nur Abholung möglich. (%s mm)'
+    }
+  },
+  restrictions: {
+      length: 10000,
+      cut: 10000,
+      volume: 10000,
+  },
+  material: {
+      strength: 2.0,
+      depth: 1000,
+      textureVisibleSide: '/adb/a5/a5e574c707bd843b.png',
+      texture: '/adb/a5/a5e574c707bd843b.png',
+  },
+  coverImages: {
+        none: '/images/dwt_icons/cover_none.gif',
+        round: {
+            start: '/images/dwt_icons/cover_round_left.gif',
+            end: '/images/dwt_icons/cover_round_right.gif',
+            once: '/images/dwt_icons/cover_round_once.gif',
+        },
+        sharp: {
+            start: '/images/dwt_icons/cover_sharp_right.gif',
+            end: '/images/dwt_icons/cover_sharp_left.gif',
+            once: '/images/dwt_icons/cover_sharp_once.gif',
+        }
+    }
+});
+              $.fancybox.close();
+
+          //Jetzt blenden wir nochmal einen Hilfetext zum konischen Ablauf ein
+          $('#konisch3_trigger').click();
+
+          //Erste Zwichnung ausblenden und zweite rein
+          dwtInstance.hide();
+          dwtConInstance.paint();
+
+    
+          var data = dwtConInstance.getVectorPointsForOutdoorUse();
+          handleTable(data, true);
+
+          //Konische Linie ist Lila
+          dwtConInstance.setStroke('#dc4b50');
+          //wir beginnen mit der Bemaßung
+          dwtConInstance.disableDrawing();
+          dwtConInstance.enableLabel();
+          dwtConInstance.disableVisibleSideArrow();
+          dwtConInstance.enableAngleIndicator();
+
+          dwtConInstance.show();
+          $('.hint').hide();
+          $('#nextProcess').css('visibility', 'visible');
+          $('input[name=weiter]').css('visibility', 'hidden');
+          conicalFinished = true;
+      }
+      //Handler für die Knöpfe in der Toolbar
+      function handleTabsToolbar ()
+      {
+          var $toolbar = $('.toolbox');
+          //Löschknopf
+          $toolbar.children('#resetDrawing').click(function () {
+
+              if (dwtInstance !== null)
+              {
+                  //Zeichnung wegputzen
+                  dwtInstance.clear();
+                  if (dwtConInstance !== null)
+                  {
+                      dwtConInstance.clear();
+                      dwtConInstance = null;
+                  }
+                  dreiDwtInstance = null;
+                  $('.sheet').empty();
+
+                  $('#length').val(1000);
+                  $('#amount').val(1);
+
+
+                  //Clicks triggern bis wir am Anfang sind
+                  while (stepDraw > 1) {
+                      decreaseStep();
+                  }
+
+              }
+          });
+          //Seitenumschalter
+          $toolbar.children('#switchSide').click(function () {
+              if (dreiDwtInstance !== null)
+              {
+                  dreiDwtInstance.toggleVisibleSide();
+
+                  dreiDwtInstance.repaint();
+                  //nach dem Umschalten muss man wegen dem grünen Pfeil erneut abspeichern
+                  if (dwtInstance != null)
+                  {
+                      saveImagesVectors();
+                  }
+              }
+
+          });
+
+          $toolbar.children('#stepDrawBack').click(function () {
+              //Backspace drücken
+
+              if (dwtInstance !== null)
+              {
+    
+    
+              }
+              if (dwtConInstance !== null)
+              {
+    
+
+              }
+          });
+
+          //Ansichts-Umschalter
+          var $viewSwitch = $('ul.view.switch')
+          var $scale = $viewSwitch.children('li.scale');
+          var $no_scale = $viewSwitch.children('li.no_scale');
+          var $konisch = $viewSwitch.children('li.konisch');
+
+          $scale.click(function () {
+              if (dwtConInstance !== null)
+              {
+                  dwtConInstance.hide();
+              }
+              if (dwtInstance !== null)
+              {
+                  dwtInstance.show();
+                  dwtInstance.enableLabel();
+                  $no_scale.removeClass('current');
+                  $konisch.removeClass('current');
+                  $scale.addClass('current');
+              }
+          });
+          $no_scale.click(function () {
+
+              if (dwtConInstance !== null)
+              {
+                  dwtConInstance.hide();
+              }
+              if (dwtInstance !== null)
+              {
+                  dwtInstance.show();
+                  dwtInstance.disableDrawingTranslation();
+                  dwtInstance.enableLabel();
+                  $no_scale.addClass('current');
+                  $scale.removeClass('current');
+                  $konisch.removeClass('current');
+              }
+          });
+          $konisch.click(function () {
+              if (dwtInstance !== null)
+              {
+                  dwtInstance.hide();
+              }
+              if (dwtConInstance !== null)
+              {
+                  dwtConInstance.show();
+                  $no_scale.removeClass('current');
+                  $scale.removeClass('current');
+                  $konisch.addClass('current');
+              }
+          });
+          $('#undo').click(function () {
+              if (dwtInstance !== null)
+              {
+                  dwtInstance.undo();
+              }
+
+          });
+          $('#increase_label').click(function () {
+
+              dwtInstance.increaseLabelSize();
+              dwtInstance.increaseAngleIndicatorSize();
+              if (dwtConInstance !== null)
+              {
+                  dwtConInstance.maximize();
+                  dwtConInstance.increaseLabelSize();
+                  dwtConInstance.increaseAngleIndicatorSize();
+              }
+          });
+          $('#decrease_label').click(function () {
+              dwtInstance.decreaseLabelSize();
+              dwtInstance.decreaseAngleIndicatorSize();
+              if (dwtConInstance !== null)
+              {
+                  dwtConInstance.decreaseabelSize();
+                  dwtConInstance.maximize();
+                  dwtConInstance.decreaseAngleIndicatorSize();
+              }
+          });
+
+      }
+      //diese FB fragt Länge und Verwendungszweck ab - mit Validierung
+      function handleLengthFancybox ()
+      {
+
+
+          $('#save_length').click(function (event) {
+
+              event.stopPropagation();
+              //Schauen ob die Eingabe valide ist
+              var elLength = $('#length');
+              var elAmount = $('#amount');
+
+              if (elLength.val() * 1 <= elLength.attr('max') * 1 && elLength.val() * 1 >= elLength.attr('min') * 1)
+              {
+
+                  var size = dwtInstance.getTotalSize();
+
+                  var width = size.width == 0 ? 1 : Math.round(size.width) / 10;
+                  var height = size.height == 0 ? 1 : Math.round(size.height) / 10;
+                  var length = Math.round(elLength.val() / 10);
+
+                  $('input[name=dimensions]').val(length + 'x' + width + 'x' + height);
+                  $('input[name=edge_length]').val(dwtInstance.getTotalLength());
+
+                  increaseStep();
+                  start3D();
+
+                  $.fancybox.close();
+              }
+              else {
+
+                  //Bos rot färben und Tooltip aktivieren
+                  elLength.css('border', '2px solid red');
+                  elLength.addClass('tooltip title');
+                  elLength.attr('title', 'Bitte beachten Sie die maximale Länge von ' + elLength.attr('max') + ' mm.');
+                  elLength.tooltip();
+              }
+              if (elAmount.val() < 0)
+              {
+                  elAmount.css('border', '2px solid red');
+                  elAmount.addClass('tooltip title');
+                  elAmount.attr('title', 'Die Anzahl muss größer als 0 sein. ');
+                  elAmount.tooltip();
+
+              }
+
+          });
+      }
+      //Listener für den Next-Button
+      function handleNextProcessButton ()
+      {
+          $('#nextProcess').on('click', function () {
+
+              $('#prevProcess').css('visibility', 'visible');
+              $('#prevProcess').show();
+              $('tr.hide').css('visibility', 'visible');
+
+              increaseStep();
+
+          });
+      }
+
+      //Speichern der Bild- und Vectordaten
+      function saveImagesVectors ()
+      {
+
+          //Optik aufbrezeln
+          dwtInstance.disableGrid();
+          dwtInstance.disableAlphabeticLabel();
+          dwtInstance.enableVisibleSideArrow();
+          dwtInstance.maximize();
+          //Grafiken speichern - maßstabsgetreu
+          dwtInstance.toImage(function (stringBase64) {
+              $('input.image_data').empty().val(stringBase64);
+          });
+
+          if (dwtConInstance !== null) {
+              dwtConInstance.disableGrid();
+              dwtConInstance.maximize();
+              dwtConInstance.disableAlphabeticLabel();
+              dwtConInstance.toImage(function (stringBase64_3) {
+                  $('input.image_data_konisch').empty().val(stringBase64_3);
+              });
+
+              $('input.vector_data_konisch').val(dwtConInstance.toJson());
+              
+              var pointsExportedCon = dwtConInstance.getVectorPointsForOutdoorUse();
+              var pointsJsonCon = JSON.stringify(pointsExportedCon);
+              $('input.points_konisch_json').val(pointsJsonCon);
+          }
+
+          $('input.vector_data').val(dwtInstance.toJson());
+          
+          var pointsExported = dwtInstance.getVectorPointsForOutdoorUse();
+          var pointsJson = JSON.stringify(pointsExported);
+          $('input.points_json').val(pointsJson);
+          
+
+          //Ansonsten laufen wir in unsere Schleifen
+          var inputVectorData = $('input.vector_data').val();
+          while (inputVectorData.length <= 0) {
+              $('input.vector_data').val(dwtInstance.toJson());
+              inputVectorData = $('input.vector_data').val();
+          }
+
+          if (dwtConInstance !== null) {
+              //Ansonsten laufen wir in unsere Schleifen
+              var inputVectorDataConical = $('input.vector_data_konisch').val();
+              while (inputVectorDataConical.length <= 0) {
+                  $('input.vector_data_konisch').val(dwtConInstance.toJson());
+                  inputVectorDataConical = $('input.vector_data_konisch').val();
+              }
+          }
+
+      }
+      /**
+       * Zurück zum letzten Schritt
+       */
+      function handlePrevProcessButton ()
+      {
+          $(' #prevProcess').on('click', function () {
+              //Schritt-Variable setzen
+              decreaseStep();
+              conicalFinished = false;
+
+              $('#switchSide').addClass('hidden');
+
+              //letzter Schritt
+              if (stepDraw === 3) {
+                  $('input.hide').css('visibility', 'hidden');
+                  $('#zoomIn').show();
+                  $('#zoomOut').show();
+                  $('#stepDrawBack').show();
+              }
+              //alle Schritte dazwischen
+              if (stepDraw > 1 && stepDraw < 4) {
+                  $('#nextProcess').css('visibility', 'visible');
+              }
+              //Wenn die 3D-Darstellung noch da ist.
+              dwtInstance.enableGrid();
+              dwtInstance.show();
+
+
+              //Erster Schritt
+              if (stepDraw === 1) {
+                  $('#prevProcess').css('visibility', 'hidden');
+                  $('tr.hide').css('visibility', 'hidden');
+    
+                  $('ul.view.switch').hide();
+                  //Wieder fragen ob man konisch möchte
+                  $('#konisch1_trigger').click();
+              }
+              if (dwtConInstance !== null)
+              {
+                  dwtConInstance.hide().html('');
+                  dwtConInstance = null;
+                  $('ul.view.switch li.konisch').removeClass('current').hide();
+                  $('ul.view.switch li.no_scale').addClass('current');
+              }
+              if (dreiDwtInstance !== null) {
+                  dreiDwtInstance.hide().html('');
+                  dreiDwtInstance = null;
+                  $('img.mausgrafik').attr('src', '/images/dwt/grafik_maus.png');
+                  $('ul.view.switch').show();
+              }
+
+
+
+          });
+      }
+      //Initialisierung
+      function init ()
+      {
+          //Exit-Knopp für alle Fancyboxen
+          $('input.fancybox_close').click(function () {
+              $.fancybox.close();
+          });
+          //Buttons erzeugen
+          $('#dwContainer').append('<br />');
+              $('td.prev').empty().append('<input type="button" value="< Vorheriger Schritt" id="prevProcess" style="position: static; display: block; visibility: hidden;"/>');
+              $('td.next').empty().append('<input type="button" value="Nächster Schritt >" id="nextProcess" style="position: static; float: right;"/>');
+
+          //Die Zeichnung beginnt immer in der maßstabsgetreuen Version
+          $('li.no_scale').addClass('current');
+          $('li.scale').removeClass('current');
+
+          dwtInstance.enableAngleIndicator();
+          dwtInstance.enableDrawing();
+          dwtInstance.disableVisibleSideArrow();
+
+      }
+      /**
+       * Ändert den Zustand von Fortschrittsbalken und Hilfe-Boxen
+       * Direkt NACH dem Anpassen des Schritts.
+       */
+      function handleSteps ()
+      {
+          if ($('#progress_bar_draw').length > 0)
+          {
+              var barDraw = $('#progress_bar_draw');
+              var table = $('#data_table');
+              var details = $('#selection_details');
+              var tooltipDraw = $('.fancybox.question');
+              var id = '#fancybox_sketch';
+
+              barDraw.find('li').removeClass('active');
+              //Zeichnen
+              if (stepDraw === 1)
+              {
+                  dwtInstance.disableVisibleSideArrow();
+                  dwtInstance.enableDrawing();
+    
+                  triggerHint('Tipp: Um die Zeichnung abzuschlie&szlig;en, best&auml;tigen Sie mit der rechten Maustaste. ', 7000);
+                  dwtInstance.disableLabel();
+                  if (isConical)
+                  {
+                      id = '#konisch2';
+
+                  }
+                  else
+                  {
+                      id = '#fancybox_sketch';
+                  }
+                  $('#undo').show();
+                  barDraw.find('.first').addClass('active');
+                  tooltipDraw.attr('href', id);
+                  $('#prevProcess').css('visibility', 'hidden');
+                  if ($(id).hasClass('not_shown'))
+                  {
+                      tooltipDraw.click();
+                      $(id).removeClass('not_shown');
+                  }
+                  if (isConical)
+                  {
+                      dwtInstance.setStroke('#7064e1');
+                  }
+                  else
+                  {
+                      dwtInstance.setStroke('#000000');
+                  }
+              }
+              //Farb-/Sichtseite
+              else if (stepDraw === 2)
+              {
+                  dwtInstance.enableVisibleSideArrow();
+                  dwtInstance.disableDrawing();
+                  $('#dwSheet .message').remove();
+
+                  dwtInstance.disableLabel();
+                  $('ul.view.switch').hide();
+                  $('#undo').hide();
+                  $('#zoom_label_angle').hide();
+
+                  details.show()
+                  table.hide();
+
+                  id = '#fancybox_side';
+                  barDraw.find('.second').addClass('active');
+                  tooltipDraw.attr('href', id);
+                  if ($(id).hasClass('not_shown'))
+                  {
+                      tooltipDraw.click();
+                      $(id).removeClass('not_shown');
+                  }
+
+              }
+              //Bemaßung
+              else if (stepDraw === 3)
+              {
+                  dwtInstance.enableLabel();
+                  dwtInstance.enableAngleIndicator();
+                  $('#dwSheet .message').remove();
+                      $('ul.view.switch').show();
+                  dwtInstance.disableVisibleSideArrow();
+
+                  var data = dwtInstance.getVectorPointsForOutdoorUse();
+                  handleTable(data, false);
+                  details.hide()
+                  table.show();
+
+                  id = '#fancybox_dimension';
+                  barDraw.find('.third').addClass('active');
+                  tooltipDraw.attr('href', id);
+                  if ($(id).hasClass('not_shown'))
+                  {
+
+                      tooltipDraw.click();
+                      $(id).removeClass('not_shown');
+                  }
+                  dwtInstance.maximize();
+                  $('#zoom_label_angle').show();
+              }
+              //3d - Hurra!
+              else if (stepDraw === 4)
+              {
+
+                  $('#dwSheet .message').remove();
+                  details.show()
+                  table.hide();
+                  id = '#fancybox_3d';
+                  barDraw.find('.fourth').addClass('active');
+                  tooltipDraw.attr('href', id);
+                  if ($(id).hasClass('not_shown'))
+                  {
+                      setTimeout(function () {
+                          tooltipDraw.click();
+                      }, 100);
+                      $(id).removeClass('not_shown');
+                  }
+              }
+          }
+      }
+      //IE Fallback - 3D is nich!
+
+      function browserCheck ()
+      {
+          if ($.browser.name === 'msie' && $.browser.versionNumber < 12)
+          {
+              $('#dreiDwSheet').append('<p>Es tut uns leid, der Internet Explorer unterst&uuml;tzt die 3D-Darstellung nicht. Bitte benutzen Sie einen modernen Browser. </p>');
+              return false;
+          }
+          else {
+              $('tr.hint').show();
+              return true;
+          }
+      }
+      function increaseStep ()
+      {
+          if (stepDraw > 0 && stepDraw < 4)
+          {
+              /*
+               *
+               * FB mit der Länge anzeigen
+               * -wenn nicht konisch
+               * -oder wenn das konische Zeichnen fertig ist.
+               */
+              if ((stepDraw === 3 && !isConical) || (stepDraw === 3 && isConical && conicalFinished))
+              {
+                  //FB mit Längenabfrage
+                  $('#question_trigger').click();
+              }
+              else if (stepDraw === 3 && isConical && !conicalFinished)
+              {
+                  //Konische Instanz erzeugen, Hilfe anzeigen
+                  handleConical();
+              }
+              else {
+                  stepDraw++;
+                  handleSteps();
+              }
+          }
+          else {
+              throw 'Invalid Step';
+          }
+      }
+      function decreaseStep ()
+      {
+          if (stepDraw > 1 && stepDraw <= 4)
+          {
+              stepDraw--;
+              handleSteps();
+          }
+          else {
+              throw 'Invalid step';
+          }
+
+      }
+      function setStep (step)
+      {
+          if (stepDraw > 1 && stepDraw <= 4)
+          {
+              stepDraw = step;
+              handleSteps();
+          }
+          else {
+              throw 'Invalid step';
+          }
+      }
+      //Für die Tabelle mit Längen und Winkeln
+      function handleTable (data, conical)
+      {
+          var target = $('#data_table table tbody').empty();
+          var alpha = [
+              'A',
+              'B',
+              'C',
+              'D',
+              'E',
+              'F',
+              'G',
+              'H',
+              'I',
+              'J',
+              'K',
+              'L',
+              'M',
+              'N',
+              'O',
+              'P',
+              'Q',
+              'R',
+              'S',
+              'T',
+              'U',
+              'V',
+              'W',
+              'X',
+              'Y',
+              'Z'
+          ];
+
+          var tmp = '';
+
+          $.each(data, function (k, v) {
+
+
+              tmp = '<tr><td>' + v.alphabetOrder + '</td><td><a class="label" href="#" data-label="' + v.index + '" >' + v.length + 'mm</a></td></tr>';
+              target.append(tmp);
+              if (v.angle !== -1)
+              {
+                  tmp = '<tr><td>' + alpha[k - 1] + ' &ang; ' + v.alphabetOrder + '</td><td><a href="#" class="angle" data-angle="' + v.index + '" >' + Math.abs(v.angle) + '°</a></td></tr>';
+                  target.append(tmp);
+              }
+              tmp = '';
+          });
+
+
+          target.find('a.label').each(function () {
+              $(this).click(function () {
+
+                  var index = $(this).attr('data-label');
+                  setTimeout(function () {
+                      if (conical)
+                      {
+                          dwtConInstance.trigger('labelUpdate', {
+                              index: index,
+                              value: 0,
+                          });
+                      }
+                      else {
+                          dwtInstance.trigger('labelUpdate', {
+                              index: index,
+                              value: 0,
+                          });
+                      }
+                  }, 100);
+              });
+          });
+          target.find('a.angle').each(function () {
+
+              $(this).click(function () {
+                  var index = $(this).attr('data-angle');
+                  setTimeout(function () {
+                      if (conical)
+                      {
+                          dwtConInstance.trigger('angleUpdate', {
+                              index: index,
+                              value: 0,
+                          });
+                      }
+                      else {
+
+                          dwtInstance.trigger('angleUpdate', {
+                              index: index,
+                              value: 0,
+                          });
+                      }
+                  }, 100);
+
+              });
+          });
+          //Event Listener für die Änderungen durch den Benutzer
+          if (conical)
+          {
+              dwtConInstance.on('angleUpdateNotification', function (jQueryEvent, objectUpdateInformation) {
+                  var index = objectUpdateInformation.vectorPoints[0].index;
+                  var newVal = objectUpdateInformation.vectorPoints[0].angle;
+
+                  var change = target.find('.angle[data-angle=' + index + ']');
+                  if (change.length > 0)
+                  {
+                      change.html(Math.abs(newVal) + '°');
+                  }
+
+
+              });
+              dwtConInstance.on('labelUpdateNotification', function (jQueryEvent, objectUpdateInformation) {
+                  var index = objectUpdateInformation.vectorPoints[0].index;
+                  var newVal = objectUpdateInformation.vectorPoints[0].length;
+
+                  var change = target.find('.label[data-label=' + index + ']');
+                  if (change.length > 0)
+                  {
+                      change.html(Math.abs(newVal) + 'mm');
+                  }
+              });
+
+          }
+          else
+          {
+              dwtInstance.on('angleUpdateNotification', function (jQueryEvent, objectUpdateInformation) {
+                  var index = objectUpdateInformation.vectorPoints[0].index;
+                  var newVal = objectUpdateInformation.vectorPoints[0].angle;
+
+                  var change = target.find('.angle[data-angle=' + index + ']');
+                  if (change.length > 0)
+                  {
+                      change.html(Math.abs(newVal) + '°');
+                  }
+
+
+              });
+
+              dwtInstance.on('labelUpdateNotification', function (jQueryEvent, objectUpdateInformation) {
+                  var index = objectUpdateInformation.vectorPoints[0].index;
+                  var newVal = objectUpdateInformation.vectorPoints[0].length;
+
+                  var change = target.find('.label[data-label=' + index + ']');
+                  if (change.length > 0)
+                  {
+                      change.html(Math.abs(newVal) + 'mm');
+                  }
+              });
+
+          }
+
+      }
+
+      function triggerHint (text, ms)
+      {
+          dwtInstance.on('stageMouseUp', function (jQueryEvent) {
+
+              if (timer_hint !== undefined)
+              {
+                  clearTimeout(timer_hint);
+              }
+              timer_hint = setTimeout(function () {
+                  if (stepDraw === 1)
+                  {
+                      $('#dwSheet .message').remove();
+                      var div = '<p class="message">' + text + '</p>';
+                      $('#dwSheet').prepend(div);
+
+                  }
+              }, ms);
+
+          });
+
+      }
+
+
+
+
+</script>
+
+<script type="text/javascript">
+
+    $(function() {
+      'use strict';
+      //Hier werden die Settings gezogen
+      //Settings Frontend
+dwtInstance = $('#dwSheet').dwt({
+  width: 765,
+  height: 500,
+  allowEnvelopes: true,
+  allowDragableLabel: false,
+  angleIndicatorScaleFactor: 1.5,
+  allowScrolling: false,
+  allowZooming: false,
+  showVisibleSideArrow: true,
+  showVisibleSideArrowAtPoint: 2,
+  showAngleIndicator: true,
+  allowLabelCollisionTest: true,
+
+  lineWidth: 3,
+  scaleMin: 0.1,
+  scaleMax: 10,
+  conversionValue: 1.5, //Genau 500mm breit; bei 0,99 ist das Teil 500mm hoch und 770 mm breit
+  showLegend: false,
+  gridBlockWidth: 15,
+  translateDrawing: false,
+  useLabel: true,
+  useAngleIndicator: true,
+  useAlphabeticLabel: true,
+  useVisibleSideArrow: true,
+  routeDistinctionLineWidth: 3,
+  routeDistinctionColor: '#0aaba4',
+  useRouteDistinction: true,
+  visibleSideArrowImageSource: '/images/dwt_icons/arrow.png',
+  I18n: {
+    de_DE:
+    {
+        Error_Restriction_Cut: 'Hinweis: Versandmaße überschritten, eventuell ist eine Lieferung nicht möglich. Nur Abholung möglich. (%s mm)'
+    }
+  },
+  restrictions: {
+      length: 10000,
+      cut: 10000,
+      volume: 10000,
+  },
+  material: {
+      strength: 2.0,
+      depth: 1000,
+      texture: '/adb/a5/a5e574c707bd843b.png',
+      textureVisibleSide: '/adb/a5/a5e574c707bd843b.png',
+  },
+  coverImages: {
+        none: '/images/dwt_icons/cover_none.gif',
+        round: {
+            start: '/images/dwt_icons/cover_round_left.gif',
+            end: '/images/dwt_icons/cover_round_right.gif',
+            once: '/images/dwt_icons/cover_round_once.gif',
+        },
+        sharp: {
+            start: '/images/dwt_icons/cover_sharp_right.gif',
+            end: '/images/dwt_icons/cover_sharp_left.gif',
+            once: '/images/dwt_icons/cover_sharp_once.gif',
+        }
+  },
+  sceneOptions: {
+        transparentBackground: true,
+        clearColor: '#000000',
+  },
+
+
+});
+      dwtInstance.paint();
+      fancyboxConical();
+      handleTabsToolbar();
+
+      (function() {
+          //Buttons reinhängen, Tabs initialisieren
+          init();
+          handleLengthFancybox();
+          handleNextProcessButton();
+          handlePrevProcessButton();
+      })();
+    });
+
+</script>
+<div id="dwContainer" class="dwt">
+    <div id="dwSheet" class=""></div>
+    <div id="dwSheetKonisch" class="sheet"></div>
+    <div id="dreiDwSheet" class="sheet"></div>
+    <div class="nofloat"></div>
+</div>
+</div>
+</body></html>

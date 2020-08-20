@@ -1,7 +1,7 @@
 const scrape = require('website-scraper');
 const options = {
-  urls: ['http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-three.html'],
-  directory: 'home/',
+  urls: ['https://www.bestell-dein-blech.de/dwt/order/draw?tool=true'],
+  directory: 'home_n/',
 };
  
 // with async/await
