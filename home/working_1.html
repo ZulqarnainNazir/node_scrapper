@@ -1,105 +1,46 @@
-
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head><title>Demo First</title><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/scripts/jquery/fancybox/2.1.4/jquery.fancybox.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/scripts/jquery/ui/1.10.3/css/redmond/jquery-ui-1.10.3.custom.min.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/scripts/plugins/video-js/video-js.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/styles/default.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/styles/dwt.css" /><link rel="stylesheet" type="text/css"  href="https://www.bestell-dein-blech.de/styles/aw.dwt-latest.css" /><link href="https://www.bestell-dein-blech.de/styles/print.css" type="text/css" rel="stylesheet" media="print"/><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/modernizr.custom.39173.js"></script>
-<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/default.js"></script>
-<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/ui/1.10.3/jquery-ui-1.10.3.custom.min.js"></script>
-<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/tools/jquery.tools.min.js"></script>
-<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/fancybox/2.1.4/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/plugins/video-js/video.js"></script>
-<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/jquery.viewport.min.js"></script>
-<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/jquery/jquery.BlackAndWhite.min.js"></script>
-<script type="text/javascript" src="https://www.bestell-dein-blech.de/scripts/aw.dwt-latest.js"></script>
-
-                <script type="text/javascript">
-                      var browser_update_message = 'Sie verwenden einen veralteten Browser. Das Zeichentool setzt Funktionen vorraus, die nur in modernen Browsern vorhanden sind. Bitte aktualisieren Sie Ihren Browser, um das Zeichentool korrekt nutzen zu können. Eine Aktualisierung dauert nur wenige Minuten und macht das Surfen sicherer! <a href="http://browser-update.org/de/update.html" target="_blank">Hier erfahren Sie, wie einfach Sie Ihren Browser aktualisieren können.</a>';
-
-                      var $buoop = {
-                          vs: {
-                              i: 10,
-                              f: 23,
-                              o: 11,
-                              s: 4,
-                              n: 9
-                          }
-                          ,
-                          l: 'de'                       // set a language for the message, e.g. "en"
-                          ,
-                          test: false // true = always show the bar (for testing)
-                          ,
-                          text: browser_update_message // custom notification html text
-                      }
-                      $buoop.ol = window.onload;
-                      window.onload = function () {
-                          try {
-                              if ($buoop.ol)
-                                  $buoop.ol();
-                          } catch (e) {
-                          }
-                          var e = document.createElement("script");
-                          e.setAttribute("type", "text/javascript");
-                          e.setAttribute("src", "https://browser-update.org/update.js");
-                          document.body.appendChild(e);
-                      }
-
-                </script>
-            <script type="text/javascript">
-  /* <![CDATA[ */
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-44707912-1']);
-  _gaq.push(['_trackPageview']);
-  _gaq.push(['_setDomainName', 'www.bestell-dein-blech.de']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_gat._anonymizeIp']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script');
-    ga.type = 'text/javascript';
-    ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(ga, s);
-  })();
-  /* ]]> */
-</script></head><body class="module-dwt controller-order action-draw">
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '', // App ID
-    });
-  };
-  (function(d){
- var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/en_US/all.js";
-     d.getElementsByTagName('head')[0].appendChild(js);
-   }(document));
-</script>
-<div class=""><div class="shadow left"></div><div class="page header above"></div><div class="page wrapper"><div class="page center">
-<div class="page column right width-600" style="float: left;">
-        <!-- <div class="toolbox ">
-
-
-
-
-    <div id="undo" class="tooltip title" title="Einen Schritt zur&uuml;ck"></div>
-    <div id="resetDrawing" class="tooltip title" title="Zeichnung verwerfen und neu beginnen"></div> -->
-    <!-- <a href="#fancybox_sketch" class="fancybox question"></a> -->
-<!-- </div> -->
-
-<ul class="view switch" style="">
-    <li class=" no_scale tooltip title" title="Nicht ma&szlig;stabsgetreue Darstellung. Wenn sie eine Bema&szlig;ung &auml;ndern, wird die &Auml;nderung nicht angezeigt. ">Skizze</li>
-
-    <li class="konisch hidden tooltip title" title="Zeichnen Sie hier das zweite Profil eines konischen Blechs. ">Konisch</li>
-</ul>
-<a href="#help" class="hidden fancybox_no_close" id="help_trigger"></a>
-<a href="#question" class="hidden fancybox_no_close" id="question_trigger"></a>
-<a href="#konisch1" class="hidden fancybox_no_close" id="konisch1_trigger"></a>
-<a href="#konisch2" class="hidden fancybox" id="konisch2_trigger"></a>
-<a href="#konisch3" class="hidden fancybox" id="konisch3_trigger"></a>
-<div class="nofloat"></div>
-
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+   <head>
+      <title>Demo First</title>
+      <!-- Include Stylesheets -->
+      <link rel="stylesheet" type="text/css"  href="./assets/css/jquery.fancybox.css" />
+      <link rel="stylesheet" type="text/css"  href="./assets/css/jquery-ui-1.10.3.custom.min.css" />
+      <link rel="stylesheet" type="text/css"  href="./assets/css/video-js.css" />
+      <link rel="stylesheet" type="text/css"  href="./assets/css/default.css" />
+      <link rel="stylesheet" type="text/css"  href="./assets/css/dwt.css" />
+      <link rel="stylesheet" type="text/css"  href="./assets/css/aw.dwt-latest.css" />
+      <link href="./assets/css/print.css" type="text/css" rel="stylesheet" media="print"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <!-- script tags -->
+      <script type="text/javascript" src="./assets/js/modernizr.custom.js"></script>
+      <script type="text/javascript" src="./assets/js/jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="./assets/js/default.js"></script>
+      <script type="text/javascript" src="./assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+      <script type="text/javascript" src="./assets/js/jquery.tools.min.js"></script>
+      <script type="text/javascript" src="./assets/js/jquery.fancybox.pack.js"></script>
+      <script type="text/javascript" src="./assets/js/video.js"></script>
+      <script type="text/javascript" src="./assets/js/jquery.viewport.min.js"></script>
+      <script type="text/javascript" src="./assets/js/jquery.BlackAndWhite.min.js"></script>
+      <script type="text/javascript" src="./assets/js/aw.dwt-latest.js"></script>
+      <script type="text/javascript" src="./assets/js/custom.js"></script>
+   </head>
+   <body class="module-dwt controller-order action-draw">
+      <div class="shadow left"></div>
+      <div class="page header above"></div>
+      <div class="page wrapper">
+      <div class="page center">
+      <div class="page column right width-600" style="float: left;">
+         <ul class="view switch" style="">
+            <li class=" no_scale tooltip title" title="Nicht ma&szlig;stabsgetreue Darstellung. Wenn sie eine Bema&szlig;ung &auml;ndern, wird die &Auml;nderung nicht angezeigt. ">Skizze</li>
+            <li class="konisch hidden tooltip title" title="Zeichnen Sie hier das zweite Profil eines konischen Blechs. ">Konisch</li>
+         </ul>
+         <a href="#help" class="hidden fancybox_no_close" id="help_trigger"></a>
+         <a href="#question" class="hidden fancybox_no_close" id="question_trigger"></a>
+         <a href="#konisch1" class="hidden fancybox_no_close" id="konisch1_trigger"></a>
+         <a href="#konisch2" class="hidden fancybox" id="konisch2_trigger"></a>
+         <a href="#konisch3" class="hidden fancybox" id="konisch3_trigger"></a>
+         <div class="nofloat"></div>
+         
 <script type="text/javascript">
       'use strict';
 
@@ -784,7 +725,7 @@ dwtConInstance = $('#dwSheetKonisch').dwt({
       {
           if ($.browser.name === 'msie' && $.browser.versionNumber < 12)
           {
-              $('#dreiDwSheet').append('<p>Es tut uns leid, der Internet Explorer unterst&uuml;tzt die 3D-Darstellung nicht. Bitte benutzen Sie einen modernen Browser. </p>');
+              $('#dreiDwSheet').append('<p>. </p>');
               return false;
           }
           else {
@@ -1106,11 +1047,12 @@ dwtInstance = $('#dwSheet').dwt({
     });
 
 </script>
-<div id="dwContainer" class="dwt">
-    <div id="dwSheet" class=""></div>
-    <div id="dwSheetKonisch" class="sheet"></div>
-    <div id="dreiDwSheet" class="sheet"></div>
-    <div class="nofloat"></div>
-</div>
-</div>
-</body></html>
+         <div id="dwContainer" class="dwt">
+            <div id="dwSheet" class=""></div>
+            <div id="dwSheetKonisch" class="sheet"></div>
+            <div id="dreiDwSheet" class="sheet"></div>
+            <div class="nofloat"></div>
+         </div>
+      </div>
+   </body>
+</html>
